@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <form onsubmit="MessageEvent('registration successful')">
+        <input type="text" name="email" value="email">
+        <input type="password" name="pass" value="password">
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Your JavaScript function (make sure it's defined somewhere in your code) -->
+    <script>
+        function MessageEvent(message) {
+            alert(message);
+        }
+    </script>
+</body>
+</html>
